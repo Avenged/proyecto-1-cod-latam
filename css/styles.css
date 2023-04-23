@@ -58,6 +58,10 @@ main {
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
 
+body {
+    min-width: 300px;
+}
+
 body, header {
     font-size: 18px;
     background-color: #fbfbfb;
@@ -190,5 +194,12 @@ footer {
 @media (min-width: 800px) {
     main {
         max-width: 800px;
+    }
+}
+
+@media (min-width: 400px) and (min-height: 1000px) {
+    .img-foto-presentacion {
+        height: 400px;
+        width: 400px;
     }
 }
