@@ -4,18 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jose Ovalle</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=false">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./assets/font-awesome/css/all.min.css" rel="stylesheet" />
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <a href="#inicio">Tu nombre</a>     
+        <a href="#inicio">
+            <img src="./img/logo.png" alt="" height="40px">
+        </a>     
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
-    <!-- En este archivo escriban su HTML -->
+    <main>
+        <section id="inicio" class="inicio animate__animated animate__fadeIn">
+            <img class="img-foto-presentacion" src="./img/foto-presentacion.jpeg" alt="Foto presentacion">
+            <h1>Hola! Soy Jose Ovalle</h1>
+            <p>
+                Praesent placerat odio lectus, ut eleifend urna pellentesque porta. Sed a lacus et orci sollicitudin iaculis non in elit. Vivamus euismod, arcu vitae vulputate convallis, libero risus bibendum nisl, ut rhoncus quam est lobortis felis. Integer urna felis, vestibulum eget ante non, mollis cursus nibh. Maecenas ac dapibus urna. Mauris ut metus lobortis, pretium elit ut, ullamcorper leo. Nam in tortor mauris. Donec pharetra ipsum orci, eu auctor leo finibus nec. Nulla ullamcorper urna sit amet ligula imperdiet, ac rhoncus metus scelerisque.
+            </p>
+            <a class="button" href=""><i class="fa-solid fa-download"></i>Descargar mi CV</a>
+        </section>
+    
+        <section id="contacto" class="contacto animate__animated animate__fadeIn">
+            <div>
+                <article>
+                    <h2>Hablemos!</h2>
+                    <p>
+                        Praesent placerat odio lectus, ut eleifend urna pellentesque porta. Sed a lacus et orci sollicitudin iaculis non in elit. Vivamus euismod, arcu vitae vulputate convallis, libero risus bibendum nisl, ut rhoncus quam est lobortis felis.
+                    </p>
+                </article>
+                <section class="botones">
+                    <i class="fa-solid fa-envelope fa-2xl"></i>
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </section>
+            </div>
+        </section>
+    </main>
 
+    <footer>
+        <p>
+            Codigo Latam
+        </p>
+    </footer>
 </body>
 </html>
